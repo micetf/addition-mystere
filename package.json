@@ -1,0 +1,26 @@
+{
+    "name": "addition-mystere",
+    "version": "1.0.0",
+    "description": "Sur le principe du ju du Motus, retrouver l'addition mystère de 4 nombres < 10 et son résultat > 9",
+    "private": true,
+    "scripts": {
+        "start-firefox": "NAVIGATEUR=firefox webpack serve",
+        "start-chrome": "NAVIGATEUR=google-chrome webpack serve",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/micetf/addition-mystere.git"
+    },
+    "keywords": [],
+    "author": "Frédéric MISERY <webmaster@micetf.fr> (https://micetf.fr/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/micetf/addition-mystere/issues"
+    },
+    "devDependencies": {
+        "webpack": "^5.69.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    }
+}
