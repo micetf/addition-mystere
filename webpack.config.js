@@ -1,8 +1,10 @@
 const navigateur = require("./navigateur.config");
 
+const mode =
+    process.env.NODE_ENV === "production" ? "production" : "development";
 module.exports = {
-    mode: "development",
-    devtool: false,
+    mode,
+    devtool: "source-map",
     devServer: {
         static: "./dist",
         open: navigateur,

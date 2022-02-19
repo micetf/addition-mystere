@@ -6,7 +6,8 @@
     "scripts": {
         "start-firefox": "NAVIGATEUR=firefox webpack serve",
         "start-chrome": "NAVIGATEUR=google-chrome webpack serve",
-        "build": "webpack"
+        "build": "webpack",
+        "build-dev": "NODE_ENV=production webpack"
     },
     "repository": {
         "type": "git",
